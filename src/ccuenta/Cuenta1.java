@@ -8,17 +8,17 @@ package ccuenta;
 public class Cuenta1 {
 
     /**
-     * @return the cuenta
+     * @return the cuen1
      */
-    public String getCuenta() {
-        return cuenta;
+    public String getCuen1() {
+        return cuen1;
     }
 
     /**
-     * @param cuenta the cuenta to set
+     * @param cuen1 the cuen1 to set
      */
-    public void setCuenta(String cuenta) {
-        this.cuenta = cuenta;
+    public void setCuen1(String cuen1) {
+        this.cuen1 = cuen1;
     }
 
     /**
@@ -37,7 +37,7 @@ public class Cuenta1 {
 
 
     private String apodo;
-    private String cuenta;
+    private String cuen1;
     private double saldo;
     private double tipoInterés;
 
@@ -47,7 +47,7 @@ public class Cuenta1 {
 
     public Cuenta1(String nom, String cue, double sal, double tipo)  {
         apodo =nom;
-        cuenta=cue;
+        cuen1=cue;
         saldo=sal;
     }
 
@@ -87,7 +87,7 @@ public class Cuenta1 {
 
     public String obtenerCuenta()
     {
-        return getCuenta();
+        return getCuen1();
     }
 
 
